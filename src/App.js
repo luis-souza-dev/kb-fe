@@ -5,11 +5,12 @@ import Header from "./layout/header";
 
 function App() {
   const categories = Array.from({length: 16}, (v, i) => i);
+  const articlesList = Array.from({length: 5}, (v, i) => i);
   return (
     <Main>
       <Header></Header>
       <Carousel categories={categories}></Carousel>
-      <ArticlesList></ArticlesList>
+      <ArticlesList articles={articlesList}></ArticlesList>
     </Main>
   );
 }
