@@ -1,5 +1,5 @@
 const Header = () => (
-    <header className="col-span-full row-span-1 border border-main-borders">
+    <header className="col-span-full row-span-1 border-b border-t-0 border-main-borders">
         Headd
     </header>
 )
