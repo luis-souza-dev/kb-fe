@@ -1,6 +1,6 @@
 import CategoryPill from "../category-pill";
 
-const ListItem = (props = { isFirst: false }) => {
+const ListItem = (props) => {
     const borderClasses = 'border-t border-main-borders'
     return (
         <div className={`w-full h-20 flex flex-wrap cursor-pointer p-2 ${props.isFirst ? "" : borderClasses}`}>
