@@ -18,8 +18,9 @@ module.exports = {
         'span-10': 'span 10 / span 10',
       },
       colors: {
-        'main-borders': '#939da5',
-        'main-shadows': '#62686e'
+        'main-borders': '#545759',
+        'secondary-borders': '#217a3c',
+        'main-shadows': '#444c52'
       },
     },
   },
